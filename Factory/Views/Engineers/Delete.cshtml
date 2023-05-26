@@ -11,5 +11,7 @@ Engineer Name: @Html.DisplayFor(model => model.EngineerName)
 {
   <input type="submit" value="Delete" />
 }
-<p>@Html.ActionLink("Back to Details", "Details", new {id = Model.EngineerId})</p>
-<p>@Html.ActionLink("Back to List", "Index")</p>
+<div class="box">
+  <p>@Html.ActionLink("Back to Details", "Details", new {id = Model.EngineerId})</p>
+  <p>@Html.ActionLink("Back to List", "Index")</p>
+</div>
