@@ -1,0 +1,47 @@
+.custom-card {
+	max-width: 75%; 
+	margin: 0 auto; 
+	margin-bottom: 0px; 
+}
+
+.item {
+  outline: solid black;
+  background-color: yellow;
+  margin: 15px;
+  padding: 3px;
+}
+
+.row {
+	width:100%;
+  outline: none;
+}
+
+a {
+  color: red;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+div {
+  background-color: antiquewhite;
+  margin: 5px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+	font-weight: bold;
+}
+
