@@ -21,6 +21,7 @@
                         <li>@Html.ActionLink(@machine.MachineName, "Details", "Machines", new { id = @machine.MachineId })</li>
                     }
                 </ul>
+                <p>@Html.ActionLink("See All Machines", "Index", "Machines")</p>
             </div>
         </div>
     </div>
@@ -38,7 +39,9 @@
                         <li>@Html.ActionLink(@engineer.EngineerName, "Details", "Engineers", new { id = @engineer.EngineerId })</li>
                     }
                 </ul>
+                <p>@Html.ActionLink("See All Engineers", "Index", "Engineers")</p>
             </div>
         </div>
     </div>
 </div>
+
